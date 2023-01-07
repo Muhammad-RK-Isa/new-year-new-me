@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #151414;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.container {
+    margin-bottom: 130px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-secondary {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+/* =====================================================================Header============================================================= */
+
+header {
+    background-image: url('images/banner/banner1.png');
+    height: 808px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-contents {
+    text-align: right;
+    max-width: 32%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-contents a {
+    align-self: flex-end;
+}
+
+/* ==========================================================================Failure================================================================ */
+.failure__container {
+    display: flex;
+    align-items: center;
+    margin-right: 230px;
+    margin-left: 150px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.failure__contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.failure__list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+/* ===========================================================================My plans============================================================ */
+
+.plans__container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 230px;
+    margin-left: 230px;
+}
+
+.plans {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.plan img {
+    height: 93px;
+    width: 93px;
+}
+
+.plan h4 {
+    color: #737272;
+}
+
+/* ===========================================================================Contact===================================================== */
+
+.contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__card {
+    display: flex;
+    background-image: url('images/gradient3.png'), url('images/watch.png');
+    background-blend-mode: hard-light;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact__content {
+    align-self: flex-start;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 54px 64px;
+}
+
+.contact__content h2 {
+    color: #FFFFFF;
+}
+
+.contact__content .btn-secondary {
+    align-self: flex-start;
+}
+
+
+
+
+
+/* =======================================================================Failure Management================================================ */
+
+
+
+/* ======================================================================Footer=================================================================== */
+
+footer {
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 330px;
+    padding: 130px 230px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30%;
+    gap: 24px;
+}
+
+.info h2,
+h3,
+p {
+    color: #F8F8F8;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter-subscription input{
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 20px 0;
+    padding-left: 20px;
+    width: 100%;
+}
